@@ -1,0 +1,26 @@
+package patikaproje;
+
+public class Kullanici {
+private int dogrus;
+private int bakiye;
+
+public Kullanici(int dogrus,int bakiye) {
+	this.dogrus=dogrus;
+	this.bakiye=bakiye;
+}
+public int getDogrus() {
+	return dogrus;
+}
+public int getBakiye() {
+	return bakiye;
+}
+public void setBakiye(int bakiye) {
+	this.bakiye=bakiye;
+}
+
+
+
+
+
+}
+
