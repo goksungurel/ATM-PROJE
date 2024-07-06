@@ -43,11 +43,14 @@ break;
 			break;
 		case 4 :
 			System.out.println("sistemden çıkılıyor");
-break;
+                        break;
+                 default:
+                         System.out.println("Geçersiz işlem numarası");
+                       break;
 		}
    }
-   while(select!=4);
-   break;
+           	  while(select!=4);
+             		break;
 		
 		}else {
 	hak--;
