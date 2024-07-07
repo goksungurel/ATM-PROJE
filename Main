@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        // Kullanıcı nesnesi oluşturma
+        Kullanici kullanici = new Kullanici("ahmet123", "sifre123", 1500.0);
+
+        // Özelliklere erişim ve değişiklik
+        System.out.println("Kullanıcı Adı: " + kullanici.getKullaniciAdi());
+        System.out.println("Şifre: " + kullanici.getSifre());
+        System.out.println("Bakiye: " + kullanici.getBakiye());
+
+        kullanici.setBakiye(2000.0); // Bakiye güncelleme
+
+        System.out.println("Yeni Bakiye: " + kullanici.getBakiye());
+    }
+}
